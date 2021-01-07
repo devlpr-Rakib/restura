@@ -1,0 +1,224 @@
+/* #top-header{
+    background-color: rgb(145, 131, 131);
+    color: white;
+} */
+/* font-family: 'Poppins', sans-serif;  optional uses
+font-family: 'Lobster', cursive;     
+font-family: 'Ubuntu', sans-serif;  p and h3*/ 
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+#about-section .about{
+    min-height: 100vh;
+    overflow: hidden;
+}
+/* header start  */
+
+#main-home .header-top .item a{
+    color: black;
+}
+#main-home .header-top .item a:hover{
+    color: red;
+}
+#main-home .navbar-nav .cart-icon{
+    background-color: red;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: white;
+}
+#main-home .navbar .nav-item{
+    padding: 0px 15px;
+}
+#main-home .navbar .nav-item .nav-link{
+    color: black;
+}
+#main-home .navbar .nav-item .nav-link:hover{
+    color: red;
+}
+#main-home .navbar-brand {
+    color: red ;
+}
+/* header end  */
+/* banner slider */
+
+
+/* banner slider end  */
+.special-box .card{
+    transition: all 1s ease;
+}
+.special-box .card:hover{
+    transform: scale(1.1);
+  }
+
+.owl-img img{
+    border-radius: 10px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+}
+/* top-product */
+/* .product-box .card img{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+} */
+.product-box .card img{
+    max-height: 35vh;
+    max-width: 100%;
+   object-fit: cover;
+    overflow: hidden;
+    transition: all 1s ease;
+    
+    
+}
+.product-box .card img:hover{
+    border-radius: 20px;
+    transform: scale(0.9);
+    
+    
+}
+
+.product-box .card {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.product-box .card .card-body .list-group .list-group-item{
+    background-color: black;
+    color: white;
+}
+.product-box .card .btn-group .btn1{
+    border: 0.5px solid red;
+    color: white;
+    background-color: red;
+}
+.product-box .card .btn-group .btn2{
+    border: 0.5px solid red;
+    color: white;
+}
+
+.product-box .card .btn-group .btn3{
+    border: 0.5px solid red;
+    color: gray;
+    padding: 0px 25px;
+}
+.product-box .card .btn-group .btn3:hover{
+    background-color: red;
+    color: white;
+}
+/* sercices section */
+#services-section .jumbotron{
+    background-color: #ffffff;
+}
+#services-section .jumbotron .services-icon i{
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+#services-section .jumbotron .btn{
+    border: 0.5px solid red;
+}
+#services-section .jumbotron .green-btn{
+    border: none;
+    color: white;
+}
+#services-section .jumbotron .btn:hover{
+    background-color: red;
+}
+
+
+/* big deal section  */
+#big-deal-section .timer{
+    background: linear-gradient(
+        rgba(20,43,56,0.6),
+        rgba(20,43,56,0.6)
+    ), url(../assets/imgs/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#big-deal-section .timer div{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    color: white;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#big-deal-section .timer div span:first-child{
+   font-size: 2rem;
+}
+
+/* subscribe section */
+#subscribe-section .container-fluid .subscribe-box{
+    min-height: 50vh;
+    background-color: rgb(8, 236, 141);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe-section .container-fluid .subscribe-box img{
+   width: 400px;
+   height: auto;
+}
+#subscribe-section .subscribe-box .input-group .news-btn{
+    background-color: red;
+    color: white;
+    border: none;
+ }
+ #subscribe-section .subscribe-box .input-group .news-btn:hover{
+    background-color: green;
+    color: white;
+ }
+
+ /* contact section */
+ .google-map{
+     border-radius: 5px;
+}
+/* Footer section */
+.footer-link{
+    color: white;
+}
+#footer-section .input-group .news-btn{
+    background-color: red;
+    color: white;
+    border: none;
+ }
+ #footer-section .input-group .news-btn:hover{
+    background-color: green;
+    color: white;
+ }
+
+/* media */
+@media only screen and (max-width: 580px){
+    #main-home .header-top{
+        flex-direction: column;
+    }
+    .carousel-item h4{
+        text-align: center;
+    }
+    .carousel-item h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .carousel-item p{
+        text-align: justify;
+    }
+  
+
+}
